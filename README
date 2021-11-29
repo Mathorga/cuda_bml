@@ -1,0 +1,12 @@
+Per la compilazione è sufficiente usare il Makefile fornito
+digitando il comando "make" dalla cartella in cui sono
+presenti i sorgenti.
+
+Per compilare i singoli file è necessario specificare il
+target dopo il comando "make":
+
+cuda-traffic.cu -> make cuda
+omp-traffic.c   -> make openmp
+
+Nella directory src è fornito anche un programma seriale
+per eventuali necessità di test.
